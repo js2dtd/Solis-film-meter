@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D920F3112F602CB400C16CB7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D920F3102F602CB400C16CB7 /* Media.xcassets */; };
+		D92100012F70000100A0B001 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92100002F70000100A0B001 /* CameraPreviewView.swift */; };
+		D92EED892F2D03CC00A05411 /* CameraValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED7F2F2D03CC00A05411 /* CameraValues.swift */; };
+		D92EED8B2F2D03CC00A05411 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED872F2D03CC00A05411 /* SettingsView.swift */; };
+		D92EED8D2F2D03CC00A05411 /* ExposureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED862F2D03CC00A05411 /* ExposureViewModel.swift */; };
+		D92EED8E2F2D03CC00A05411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED852F2D03CC00A05411 /* ContentView.swift */; };
+		D92EED8F2F2D03CC00A05411 /* LightMeterEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED822F2D03CC00A05411 /* LightMeterEngine.swift */; };
+		D92EED902F2D03CC00A05411 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED832F2D03CC00A05411 /* UIComponents.swift */; };
+		D92EED912F2D03CC00A05411 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED802F2D03CC00A05411 /* Extensions.swift */; };
+		D92EED922F2D03CC00A05411 /* LightMeterCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED7E2F2D03CC00A05411 /* LightMeterCameraManager.swift */; };
+		D92EED952F2D03CC00A05412 /* ShotRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED922F2D03CC00A05412 /* ShotRecord.swift */; };
+		D92EED972F2D03CC00A05412 /* ShotHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92EED942F2D03CC00A05412 /* ShotHistoryView.swift */; };
+		D958040A2F3991A000B095F4 /* Fullscreenmeterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95804092F3991A000B095F4 /* Fullscreenmeterview.swift */; };
+		D958040E2F39B59A00B095F4 /* SolisFilmMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958040D2F39B59A00B095F4 /* SolisFilmMeterApp.swift */; };
+		D98101012F5B100100A0B001 /* AppSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98101002F5B100100A0B001 /* AppSessionStore.swift */; };
+		D98101072F5B100400A0B001 /* PresetManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98101062F5B100400A0B001 /* PresetManagementView.swift */; };
+		D98101092F5B100500A0B001 /* MeterContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98101082F5B100500A0B001 /* MeterContainerView.swift */; };
+		D9A100012F71000100A0B001 /* InitialDisplayModeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A100002F71000100A0B001 /* InitialDisplayModeGuideView.swift */; };
+		D9B200012F72000100A0B001 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = D9B200002F72000100A0B001 /* privacy.html */; };
+		D9B6A1212FE555EC00E04F24 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = D9B6A1202FE555EC00E04F24 /* RevenueCat */; };
+		D9F100012F6A000100A0B001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D9F100002F6A000100A0B001 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D958040C2F39B59A00B095F4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		D920F3102F602CB400C16CB7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D92100002F70000100A0B001 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		D92EECFD2F2CE3FA00A05411 /* Solis film meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solis film meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92EED7E2F2D03CC00A05411 /* LightMeterCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMeterCameraManager.swift; sourceTree = "<group>"; };
+		D92EED7F2F2D03CC00A05411 /* CameraValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraValues.swift; sourceTree = "<group>"; };
+		D92EED802F2D03CC00A05411 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D92EED822F2D03CC00A05411 /* LightMeterEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMeterEngine.swift; sourceTree = "<group>"; };
+		D92EED832F2D03CC00A05411 /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		D92EED852F2D03CC00A05411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D92EED862F2D03CC00A05411 /* ExposureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureViewModel.swift; sourceTree = "<group>"; };
+		D92EED872F2D03CC00A05411 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D92EED922F2D03CC00A05412 /* ShotRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotRecord.swift; sourceTree = "<group>"; };
+		D92EED942F2D03CC00A05412 /* ShotHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotHistoryView.swift; sourceTree = "<group>"; };
+		D95804092F3991A000B095F4 /* Fullscreenmeterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fullscreenmeterview.swift; sourceTree = "<group>"; };
+		D958040D2F39B59A00B095F4 /* SolisFilmMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolisFilmMeterApp.swift; sourceTree = "<group>"; };
+		D98101002F5B100100A0B001 /* AppSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSessionStore.swift; sourceTree = "<group>"; };
+		D98101062F5B100400A0B001 /* PresetManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetManagementView.swift; sourceTree = "<group>"; };
+		D98101082F5B100500A0B001 /* MeterContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterContainerView.swift; sourceTree = "<group>"; };
+		D9A100002F71000100A0B001 /* InitialDisplayModeGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialDisplayModeGuideView.swift; sourceTree = "<group>"; };
+		D9B200002F72000100A0B001 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		D9F100002F6A000100A0B001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92EECFA2F2CE3FA00A05411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B6A1212FE555EC00E04F24 /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92EECF42F2CE3FA00A05411 = {
+			isa = PBXGroup;
+			children = (
+				D920F3102F602CB400C16CB7 /* Media.xcassets */,
+				D9F100002F6A000100A0B001 /* PrivacyInfo.xcprivacy */,
+				D9B200002F72000100A0B001 /* privacy.html */,
+				D958040D2F39B59A00B095F4 /* SolisFilmMeterApp.swift */,
+				D92100002F70000100A0B001 /* CameraPreviewView.swift */,
+				D92EED7E2F2D03CC00A05411 /* LightMeterCameraManager.swift */,
+				D92EED7F2F2D03CC00A05411 /* CameraValues.swift */,
+				D92EED802F2D03CC00A05411 /* Extensions.swift */,
+				D92EED822F2D03CC00A05411 /* LightMeterEngine.swift */,
+				D92EED832F2D03CC00A05411 /* UIComponents.swift */,
+				D92EED852F2D03CC00A05411 /* ContentView.swift */,
+				D92EED862F2D03CC00A05411 /* ExposureViewModel.swift */,
+				D92EED872F2D03CC00A05411 /* SettingsView.swift */,
+				D95804092F3991A000B095F4 /* Fullscreenmeterview.swift */,
+				D92EED922F2D03CC00A05412 /* ShotRecord.swift */,
+				D92EED942F2D03CC00A05412 /* ShotHistoryView.swift */,
+				D98101002F5B100100A0B001 /* AppSessionStore.swift */,
+				D98101062F5B100400A0B001 /* PresetManagementView.swift */,
+				D98101082F5B100500A0B001 /* MeterContainerView.swift */,
+				D9A100002F71000100A0B001 /* InitialDisplayModeGuideView.swift */,
+				D92EECFE2F2CE3FA00A05411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D92EECFE2F2CE3FA00A05411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92EECFD2F2CE3FA00A05411 /* Solis film meter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92EECFC2F2CE3FA00A05411 /* Solis film meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92EED082F2CE3FC00A05411 /* Build configuration list for PBXNativeTarget "Solis film meter" */;
+			buildPhases = (
+				D92EECF92F2CE3FA00A05411 /* Sources */,
+				D92EECFA2F2CE3FA00A05411 /* Frameworks */,
+				D92EECFB2F2CE3FA00A05411 /* Resources */,
+			);
+			buildRules = (
+				D958040C2F39B59A00B095F4 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "Solis film meter";
+			packageProductDependencies = (
+				D9B6A1202FE555EC00E04F24 /* RevenueCat */,
+			);
+			productName = "Solis film meter";
+			productReference = D92EECFD2F2CE3FA00A05411 /* Solis film meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92EECF52F2CE3FA00A05411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					D92EECFC2F2CE3FA00A05411 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = D92EECF82F2CE3FA00A05411 /* Build configuration list for PBXProject "Solis film meter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D92EECF42F2CE3FA00A05411;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D9B6A11F2FE555EC00E04F24 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D92EECFE2F2CE3FA00A05411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92EECFC2F2CE3FA00A05411 /* Solis film meter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92EECFB2F2CE3FA00A05411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D920F3112F602CB400C16CB7 /* Media.xcassets in Resources */,
+				D9B200012F72000100A0B001 /* privacy.html in Resources */,
+				D9F100012F6A000100A0B001 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92EECF92F2CE3FA00A05411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958040E2F39B59A00B095F4 /* SolisFilmMeterApp.swift in Sources */,
+				D92100012F70000100A0B001 /* CameraPreviewView.swift in Sources */,
+				D92EED892F2D03CC00A05411 /* CameraValues.swift in Sources */,
+				D958040A2F3991A000B095F4 /* Fullscreenmeterview.swift in Sources */,
+				D92EED8B2F2D03CC00A05411 /* SettingsView.swift in Sources */,
+				D92EED8D2F2D03CC00A05411 /* ExposureViewModel.swift in Sources */,
+				D92EED8E2F2D03CC00A05411 /* ContentView.swift in Sources */,
+				D92EED8F2F2D03CC00A05411 /* LightMeterEngine.swift in Sources */,
+				D92EED902F2D03CC00A05411 /* UIComponents.swift in Sources */,
+				D92EED912F2D03CC00A05411 /* Extensions.swift in Sources */,
+				D92EED922F2D03CC00A05411 /* LightMeterCameraManager.swift in Sources */,
+				D92EED952F2D03CC00A05412 /* ShotRecord.swift in Sources */,
+				D92EED972F2D03CC00A05412 /* ShotHistoryView.swift in Sources */,
+				D98101012F5B100100A0B001 /* AppSessionStore.swift in Sources */,
+				D98101072F5B100400A0B001 /* PresetManagementView.swift in Sources */,
+				D98101092F5B100500A0B001 /* MeterContainerView.swift in Sources */,
+				D9A100012F71000100A0B001 /* InitialDisplayModeGuideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D92EED062F2CE3FC00A05411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RKUN3AL6DQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D92EED072F2CE3FC00A05411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RKUN3AL6DQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92EED092F2CE3FC00A05411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N98T745CND;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Solis film meter";
+				INFOPLIST_KEY_CFBundleName = "Solis film meter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "露出計測のためにカメラを使用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影記録を写真アルバムに保存します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "撮影記録の画像を写真ライブラリから削除するために使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FilmLightMeter.MasahiroYasutake.Natsusomarre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				Portrait = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D92EED0A2F2CE3FC00A05411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N98T745CND;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Solis film meter";
+				INFOPLIST_KEY_CFBundleName = "Solis film meter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "露出計測のためにカメラを使用します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影記録を写真アルバムに保存します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "撮影記録の画像を写真ライブラリから削除するために使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FilmLightMeter.MasahiroYasutake.Natsusomarre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				Portrait = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92EECF82F2CE3FA00A05411 /* Build configuration list for PBXProject "Solis film meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92EED062F2CE3FC00A05411 /* Debug */,
+				D92EED072F2CE3FC00A05411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92EED082F2CE3FC00A05411 /* Build configuration list for PBXNativeTarget "Solis film meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92EED092F2CE3FC00A05411 /* Debug */,
+				D92EED0A2F2CE3FC00A05411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9B6A11F2FE555EC00E04F24 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.79.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9B6A1202FE555EC00E04F24 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9B6A11F2FE555EC00E04F24 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D92EECF52F2CE3FA00A05411 /* Project object */;
+}

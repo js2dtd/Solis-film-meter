@@ -1,0 +1,21 @@
+.DS_Store
+.vscode/
+.claude/
+
+# Xcode user state
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Build output
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+
+# Local signing assets
+*.mobileprovision
+
+# Local archives
+*.zip
